@@ -9,7 +9,7 @@ import './App.css';
 
 function App() {
   return (
-    <Route>
+    <Router>
       <div className="App">
         <h4>Friends List</h4>
         <ul>
@@ -25,7 +25,7 @@ function App() {
           <Route path={'/login'} component={Login}/>
         </Switch>
       </div>
-    </Route>
+    </Router>
   );
 }
 
